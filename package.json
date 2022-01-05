@@ -7,8 +7,8 @@
 	"types": "dist/index.d.js",
 	"scripts": {
 		"challenge": "jest --ci --watchAll",
-		"start": "node dist",
-		"dev": "nodemon",
+		"start": "npm run challenge",
+		"dev": "npm run challenge",
 		"build": "tsc",
 		"lint": "tslint --project .",
 		"test": "jest",
